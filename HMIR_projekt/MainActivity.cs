@@ -10,13 +10,13 @@ using Android.Runtime;
 namespace HMIR_projekt
 {
     [Activity(Label = "HMIR_projekt", MainLauncher = true, Icon = "@drawable/Icon")]
-    public class MainActivity : Activity, TextureView.ISurfaceTextureListener, ISensorEventListener
+    public class MainActivity : Activity, TextureView.ISurfaceTextureListener, ISensorEventListener 
     {
         // premenne
         Camera _camera;
         TextureView _textureView;
         SensorManager _sensorManager;
-        TextView _sensorTextView;
+        TextView _accelerometer_textview;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -28,7 +28,7 @@ namespace HMIR_projekt
             _textureView.SurfaceTextureListener = this;
 
             _sensorManager = (SensorManager)GetSystemService(SensorService);
-            _sensorTextView = FindViewById<TextView>(Resource.Id.textView1);
+            _accelerometer_textview = FindViewById<TextView>(Resource.Id.textView1);
 
         }
 
@@ -77,16 +77,14 @@ namespace HMIR_projekt
         {
 
         }
-
-
-
+                
         public void OnAccuracyChanged(Sensor sensor, [GeneratedEnum] SensorStatus accuracy)
         {
         }
 
         public void OnSensorChanged(SensorEvent e)
         {
-            _sensorTextView.Text = string.Format("x={0:f}, y={1:f}, z={2:f}", e.Values[0], e.Values[1], e.Values[2]);
+            _accelerometer_textview.Text = string.Format("x={0:f}, y={1:f}, z={2:f}", e.Values[0], e.Values[1], e.Values[2]);
         }
     }
 }
