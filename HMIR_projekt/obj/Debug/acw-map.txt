@@ -1,0 +1,4 @@
+HMIR_projekt.MainActivity, HMIR_projekt;md5ea72665079c49b929a37115805278e39.MainActivity
+HMIR_projekt.MainActivity, HMIR_projekt, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ea72665079c49b929a37115805278e39.MainActivity
+HMIR_projekt.MainActivity;md5ea72665079c49b929a37115805278e39.MainActivity
+hmir_projekt.MainActivity;md5ea72665079c49b929a37115805278e39.MainActivity
