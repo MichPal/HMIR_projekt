@@ -7,10 +7,12 @@ using Android.Widget;
 using Android.Hardware;
 using Android.Runtime;
 
+
+
 namespace HMIR_projekt
 {
     [Activity(Label = "HMIR_projekt", MainLauncher = true, Icon = "@drawable/Icon")]
-    public class MainActivity : Activity, TextureView.ISurfaceTextureListener, Android.Hardware.ISensorEventListener 
+    public class MainActivity : Activity, TextureView.ISurfaceTextureListener, Android.Hardware.ISensorEventListener
     {
         // premenne
         Camera _camera;
@@ -155,7 +157,15 @@ namespace HMIR_projekt
                 }
                 else
                 {
-                    _proximity_textview.Text = string.Format("Nieco pred senzorom");
+                    AlertDialog.Builder alert = new AlertDialog.Builder(this);
+                    alert.SetTitle("Chyba proximity senzora");
+                    alert.SetMessage("Nieco je pred senzorom");
+                    alert.SetNeutralButton("OK", (senderAlert, args) => {
+                        Toast.MakeText(this, "OK!", ToastLength.Short).Show();
+                    });
+
+                    Dialog dialog = alert.Create();
+                    dialog.Show();
                 }
                 
             }
@@ -188,6 +198,7 @@ namespace HMIR_projekt
                 }
             }
         }
+
     }
 }
 
