@@ -35,5 +35,5 @@ C:\Users\Michal\Documents\Visual Studio 2015\Projects\HMIR_projekt\HMIR_projekt\
 C:\Users\Michal\Documents\Visual Studio 2015\Projects\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\Michal\Documents\Visual Studio 2015\Projects\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\Michal\Documents\Visual Studio 2015\Projects\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
-C:\Users\Michal\documents\visual studio 2015\Projects\HMIR_projekt\HMIR_projekt\obj\Debug\HMIR_projekt.dll.mdb
-C:\Users\Michal\documents\visual studio 2015\Projects\HMIR_projekt\HMIR_projekt\bin\Debug\HMIR_projekt.dll.mdb
+C:\Users\Michal\Documents\Visual Studio 2015\Projects\HMIR_projekt\HMIR_projekt\obj\Debug\HMIR_projekt.dll.mdb
+C:\Users\Michal\Documents\Visual Studio 2015\Projects\HMIR_projekt\HMIR_projekt\bin\Debug\HMIR_projekt.dll.mdb

@@ -15,7 +15,8 @@
         p1:layout_marginLeft="15dp"
         p1:layout_marginRight="15dp"
         p1:layout_marginTop="30dp"
-        p1:id="@+id/textView1" />
+        p1:id="@+id/textView1"
+        p1:layout_marginBottom="0.0dp" />
     <TextView
         p1:layout_width="fill_parent"
         p1:textAppearance="?android:attr/textAppearanceLarge"
@@ -26,12 +27,12 @@
         p1:layout_marginTop="55dp"
         p1:id="@+id/textView2" />
     <TextView
-      p1:layout_width="fill_parent"
-      p1:textAppearance="?android:attr/textAppearanceLarge"
-      p1:layout_height="wrap_content"
-      p1:text="TEXT"
-      p1:layout_marginLeft="15dp"
-      p1:layout_marginRight="15dp"
-      p1:layout_marginTop="80dp"
-      p1:id="@+id/textView3" />
+        p1:layout_width="fill_parent"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_height="wrap_content"
+        p1:text="TEXT"
+        p1:layout_marginLeft="15dp"
+        p1:layout_marginRight="15dp"
+        p1:layout_marginTop="80dp"
+        p1:id="@+id/textView3" />
 </FrameLayout>

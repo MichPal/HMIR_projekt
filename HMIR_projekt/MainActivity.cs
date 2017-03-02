@@ -96,7 +96,18 @@ namespace HMIR_projekt
         public void OnSurfaceTextureAvailable(Android.Graphics.SurfaceTexture surface, int w, int h)
         {
             _camera = Camera.Open();
-            _camera.SetDisplayOrientation(90);
+            switch (WindowManager.DefaultDisplay.Rotation)
+            {
+                case SurfaceOrientation.Rotation0:
+                    _camera.SetDisplayOrientation(90);
+                    break;
+                case SurfaceOrientation.Rotation90:
+                    _camera.SetDisplayOrientation(0);
+                    break;
+                case SurfaceOrientation.Rotation270:
+                    _camera.SetDisplayOrientation(180);
+                    break;
+            }
             _textureView.LayoutParameters = new FrameLayout.LayoutParams(w, h);
             try
             {
@@ -138,11 +149,43 @@ namespace HMIR_projekt
             }
             if (e.Sensor.Type == SensorType.Proximity)
             {
-                _proximity_textview.Text = string.Format("proximity={0:f}", e.Values[0]);
+                if(e.Values[0] > 0)
+                {
+                    _proximity_textview.Text = string.Format("");
+                }
+                else
+                {
+                    _proximity_textview.Text = string.Format("Nieco pred senzorom");
+                }
+                
             }
             if (e.Sensor.Type == SensorType.Light)
             {
-                _light_textview.Text = string.Format("Light={0:f}", e.Values[0]);
+                if(e.Values[0] > 0 && e.Values[0] < 500)
+                {
+                    _light_textview.SetTextColor(Android.Graphics.Color.Blue);
+                    _light_textview.Text = string.Format("V pohode");
+                }
+                else if(e.Values[0] >= 500 && e.Values[0] < 1000)
+                {
+                    _light_textview.SetTextColor(Android.Graphics.Color.Green);
+                    _light_textview.Text = string.Format("ne");
+                }
+                else if (e.Values[0] >= 1000 && e.Values[0] < 3000)
+                {
+                    _light_textview.SetTextColor(Android.Graphics.Color.Yellow);
+                    _light_textview.Text = string.Format("ne");
+                }
+                else if (e.Values[0] >= 3000 && e.Values[0] < 10000)
+                {
+                    _light_textview.SetTextColor(Android.Graphics.Color.Red);
+                    _light_textview.Text = string.Format("pozor");
+                }
+                else
+                {
+                    _light_textview.SetTextColor(Android.Graphics.Color.Black);
+                    _light_textview.Text = string.Format("Error");
+                }
             }
         }
     }
