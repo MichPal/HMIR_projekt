@@ -51,10 +51,19 @@ namespace HMIR_projekt
 			public const int progressbar_b = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int progressbar_g = 2130837506;
+			public const int progressbar_b_reverse = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int progressbar_r = 2130837507;
+			public const int progressbar_g = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int progressbar_g_reverse = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int progressbar_r = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int progressbar_r_reverse = 2130837510;
 			
 			static Drawable()
 			{
@@ -72,14 +81,23 @@ namespace HMIR_projekt
 			// aapt resource value: 0x7f050000
 			public const int frameLayout1 = 2131034112;
 			
+			// aapt resource value: 0x7f050008
+			public const int progressBar1 = 2131034120;
+			
+			// aapt resource value: 0x7f050009
+			public const int progressBar2 = 2131034121;
+			
+			// aapt resource value: 0x7f05000a
+			public const int progressBar3 = 2131034122;
+			
 			// aapt resource value: 0x7f050005
-			public const int progressBar1 = 2131034117;
+			public const int progressBar4 = 2131034117;
 			
 			// aapt resource value: 0x7f050006
-			public const int progressBar2 = 2131034118;
+			public const int progressBar5 = 2131034118;
 			
 			// aapt resource value: 0x7f050007
-			public const int progressBar3 = 2131034119;
+			public const int progressBar6 = 2131034119;
 			
 			// aapt resource value: 0x7f050002
 			public const int textView1 = 2131034114;

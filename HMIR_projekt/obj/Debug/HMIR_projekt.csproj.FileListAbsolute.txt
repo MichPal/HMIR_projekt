@@ -76,5 +76,8 @@ D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\android\a
 D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\System.Xml.dll.mdb
 D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\res\drawable\progressbar_b_reverse.xml
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\res\drawable\progressbar_g_reverse.xml
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\res\drawable\progressbar_r_reverse.xml
 D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\HMIR_projekt.dll.mdb
 D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\HMIR_projekt.dll.mdb

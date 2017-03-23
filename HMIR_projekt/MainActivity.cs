@@ -29,6 +29,9 @@ namespace HMIR_projekt
         ProgressBar _accelerometer_X;
         ProgressBar _accelerometer_Y;
         ProgressBar _accelerometer_Z;
+        ProgressBar _accelerometer_X_reverse;
+        ProgressBar _accelerometer_Y_reverse;
+        ProgressBar _accelerometer_Z_reverse;
 
         bool alert_created = false;
 
@@ -50,6 +53,9 @@ namespace HMIR_projekt
             _accelerometer_X = FindViewById<ProgressBar>(Resource.Id.progressBar1);
             _accelerometer_Y = FindViewById<ProgressBar>(Resource.Id.progressBar2);
             _accelerometer_Z = FindViewById<ProgressBar>(Resource.Id.progressBar3);
+            _accelerometer_X_reverse = FindViewById<ProgressBar>(Resource.Id.progressBar4);
+            _accelerometer_Y_reverse = FindViewById<ProgressBar>(Resource.Id.progressBar5);
+            _accelerometer_Z_reverse = FindViewById<ProgressBar>(Resource.Id.progressBar6);
 
 
             _sensorManager = (SensorManager)GetSystemService(SensorService);
@@ -163,9 +169,12 @@ namespace HMIR_projekt
                 _accelerometer_textview_y.Text = string.Format("y={0:f}", e.Values[1]);
                 _accelerometer_textview_z.Text = string.Format("z={0:f}", e.Values[2]);
 
-                _accelerometer_X.Progress = (int)((e.Values[0] + 10) * 5);
-                _accelerometer_Y.Progress = (int)((e.Values[1] + 10) * 5);
-                _accelerometer_Z.Progress = (int)((e.Values[2] + 10) * 5);
+                _accelerometer_X.Progress = (int)((e.Values[0]) * 10);
+                _accelerometer_Y.Progress = (int)((e.Values[1]) * 10);
+                _accelerometer_Z.Progress = (int)((e.Values[2]) * 10);
+                _accelerometer_X_reverse.Progress = (int)((10 + e.Values[0]) * 10);
+                _accelerometer_Y_reverse.Progress = (int)((10 + e.Values[1]) * 10);
+                _accelerometer_Z_reverse.Progress = (int)((10 + e.Values[2]) * 10);
             }
             if (e.Sensor.Type == SensorType.Proximity)
             {
