@@ -47,6 +47,15 @@ namespace HMIR_projekt
 			// aapt resource value: 0x7f020000
 			public const int Icon = 2130837504;
 			
+			// aapt resource value: 0x7f020001
+			public const int progressbar_b = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int progressbar_g = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int progressbar_r = 2130837507;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -62,6 +71,15 @@ namespace HMIR_projekt
 			
 			// aapt resource value: 0x7f050000
 			public const int frameLayout1 = 2131034112;
+			
+			// aapt resource value: 0x7f050005
+			public const int progressBar1 = 2131034117;
+			
+			// aapt resource value: 0x7f050006
+			public const int progressBar2 = 2131034118;
+			
+			// aapt resource value: 0x7f050007
+			public const int progressBar3 = 2131034119;
 			
 			// aapt resource value: 0x7f050002
 			public const int textView1 = 2131034114;

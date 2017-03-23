@@ -8,31 +8,58 @@
         p1:layout_height="match_parent"
         p1:id="@+id/textureView1" />
     <TextView
-        p1:layout_width="fill_parent"
+        p1:layout_width="80dp"
         p1:textAppearance="?android:attr/textAppearanceLarge"
         p1:layout_height="wrap_content"
         p1:text="TEXT"
         p1:layout_marginLeft="15dp"
         p1:layout_marginRight="15dp"
-        p1:layout_marginTop="30dp"
+        p1:layout_marginTop="0dp"
         p1:id="@+id/textView1"
         p1:layout_marginBottom="0.0dp" />
     <TextView
-        p1:layout_width="fill_parent"
+        p1:layout_width="80dp"
         p1:textAppearance="?android:attr/textAppearanceLarge"
         p1:layout_height="wrap_content"
         p1:text="TEXT"
         p1:layout_marginLeft="15dp"
         p1:layout_marginRight="15dp"
-        p1:layout_marginTop="55dp"
+        p1:layout_marginTop="20dp"
         p1:id="@+id/textView2" />
     <TextView
-        p1:layout_width="fill_parent"
+        p1:layout_width="80dp"
         p1:textAppearance="?android:attr/textAppearanceLarge"
         p1:layout_height="wrap_content"
         p1:text="TEXT"
         p1:layout_marginLeft="15dp"
         p1:layout_marginRight="15dp"
-        p1:layout_marginTop="80dp"
+        p1:layout_marginTop="40dp"
         p1:id="@+id/textView3" />
+    <ProgressBar
+        p1:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="15dp"
+        p1:layout_marginTop="7dp"
+        p1:layout_marginLeft="100dp"
+        p1:progressDrawable="@drawable/progressbar_r" />
+    <ProgressBar
+        p1:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="15dp"
+        p1:progressDrawable="@drawable/progressbar_g"
+        p1:layout_marginTop="27dp"
+        p1:layout_marginLeft="100dp"/>
+    <ProgressBar
+        p1:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="15dp"
+        p1:progressDrawable="@drawable/progressbar_b"
+        p1:layout_marginTop="47dp"
+        p1:layout_marginLeft="100dp"/>
+  
+
+        
 </FrameLayout>

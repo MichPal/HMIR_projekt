@@ -36,4 +36,45 @@ C:\Users\Michal\Documents\Visual Studio 2015\Projects\HMIR_projekt\HMIR_projekt\
 C:\Users\Michal\Documents\Visual Studio 2015\Projects\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\Michal\Documents\Visual Studio 2015\Projects\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\Michal\Documents\Visual Studio 2015\Projects\HMIR_projekt\HMIR_projekt\obj\Debug\HMIR_projekt.dll.mdb
-C:\Users\Michal\Documents\Visual Studio 2015\Projects\HMIR_projekt\HMIR_projekt\bin\Debug\HMIR_projekt.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\HMIR_projekt.dll
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\HMIR_projekt.pdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\HMIR_projekt.HMIR_projekt.apk
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\HMIR_projekt.HMIR_projekt-Signed.apk
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\HMIR_projekt.csprojResolveAssemblyReference.cache
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\HMIR_projekt.dll
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\HMIR_projekt.pdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\android\bin\HMIR_projekt.HMIR_projekt.apk
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\res\layout\main.xml
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\res\values\strings.xml
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\res\drawable\icon.png
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\res\drawable\progressbar_b.xml
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\res\drawable\progressbar_g.xml
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\res\drawable\progressbar_r.xml
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\R.cs.flag
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\uploadflags.txt
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\HMIR_projekt.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\Java.Interop.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\Mono.Android.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\mscorlib.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\System.ComponentModel.Composition.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\System.Core.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\System.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\System.Net.Http.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\System.Runtime.Serialization.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\System.ServiceModel.Internals.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\System.Xml.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\System.Xml.Linq.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\HMIR_projekt.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\Java.Interop.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\Mono.Android.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\mscorlib.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\System.Core.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\System.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\System.Net.Http.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\System.Xml.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\HMIR_projekt.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\HMIR_projekt.dll.mdb
