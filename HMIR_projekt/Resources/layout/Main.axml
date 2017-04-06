@@ -13,7 +13,7 @@
         p1:layout_height="wrap_content"
         p1:text="TEXT"
         p1:layout_marginLeft="15dp"
-        p1:layout_marginRight="15dp"
+        p1:layout_marginRight="30dp"
         p1:layout_marginTop="0dp"
         p1:id="@+id/textView1"
         p1:layout_marginBottom="0.0dp" />
@@ -35,6 +35,32 @@
         p1:layout_marginRight="15dp"
         p1:layout_marginTop="40dp"
         p1:id="@+id/textView3" />
+    <ImageView
+      p1:layout_width="200dp"
+      p1:layout_height="200dp"
+      p1:layout_marginTop="410dp"
+      p1:layout_marginLeft="150dp"
+      p1:id="@+id/ImageView1"
+      p1:src="@drawable/meter"
+      p1:scaleType="fitCenter"/>
+    <ImageView
+    p1:layout_width="200dp"
+    p1:layout_height="200dp"
+    p1:layout_marginTop="410dp"
+    p1:layout_marginLeft="150dp"
+    p1:id="@+id/ImageView2"
+    p1:src="@drawable/strelka"
+    p1:scaleType="fitCenter"/>
+    <TextView
+        p1:layout_width="match_parent"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_height="wrap_content"
+        p1:text="TEXT"
+        p1:layout_marginLeft="15dp"
+        p1:layout_marginRight="60dp"
+        p1:layout_marginTop="520dp"
+        p1:gravity="right"
+        p1:id="@+id/textView4" />
     <ProgressBar
         p1:id="@+id/progressBar4"
         style="?android:attr/progressBarStyleHorizontal"
@@ -50,7 +76,7 @@
         p1:layout_height="15dp"
         p1:progressDrawable="@drawable/progressbar_g_reverse"
         p1:layout_marginTop="27dp"
-        p1:layout_marginLeft="100dp"/>
+        p1:layout_marginLeft="100dp" />
     <ProgressBar
         p1:id="@+id/progressBar6"
         style="?android:attr/progressBarStyleHorizontal"
@@ -58,8 +84,8 @@
         p1:layout_height="15dp"
         p1:progressDrawable="@drawable/progressbar_b_reverse"
         p1:layout_marginTop="47dp"
-        p1:layout_marginLeft="100dp"/>
-  <ProgressBar
+        p1:layout_marginLeft="100dp" />
+    <ProgressBar
         p1:id="@+id/progressBar1"
         style="?android:attr/progressBarStyleHorizontal"
         p1:layout_width="129dp"
@@ -67,20 +93,20 @@
         p1:layout_marginTop="7dp"
         p1:layout_marginLeft="230dp"
         p1:progressDrawable="@drawable/progressbar_r" />
-  <ProgressBar
-      p1:id="@+id/progressBar2"
-      style="?android:attr/progressBarStyleHorizontal"
-      p1:layout_width="129dp"
-      p1:layout_height="15dp"
-      p1:progressDrawable="@drawable/progressbar_g"
-      p1:layout_marginTop="27dp"
-      p1:layout_marginLeft="230dp"/>
-  <ProgressBar
-      p1:id="@+id/progressBar3"
-      style="?android:attr/progressBarStyleHorizontal"
-      p1:layout_width="129dp"
-      p1:layout_height="15dp"
-      p1:progressDrawable="@drawable/progressbar_b"
-      p1:layout_marginTop="47dp"
-      p1:layout_marginLeft="230dp"/>      
+    <ProgressBar
+        p1:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        p1:layout_width="129dp"
+        p1:layout_height="15dp"
+        p1:progressDrawable="@drawable/progressbar_g"
+        p1:layout_marginTop="27dp"
+        p1:layout_marginLeft="230dp" />
+    <ProgressBar
+        p1:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        p1:layout_width="129dp"
+        p1:layout_height="15dp"
+        p1:progressDrawable="@drawable/progressbar_b"
+        p1:layout_marginTop="47dp"
+        p1:layout_marginLeft="230dp" />
 </FrameLayout>

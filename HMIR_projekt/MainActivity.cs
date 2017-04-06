@@ -6,6 +6,7 @@ using Android.Views;
 using Android.Widget;
 using Android.Hardware;
 using Android.Runtime;
+using Android.Views.Animations;
 
 namespace HMIR_projekt
 {
@@ -25,6 +26,7 @@ namespace HMIR_projekt
         TextView _accelerometer_textview_x;
         TextView _accelerometer_textview_y;
         TextView _accelerometer_textview_z;
+        TextView _light_textview;
 
         ProgressBar _accelerometer_X;
         ProgressBar _accelerometer_Y;
@@ -33,9 +35,14 @@ namespace HMIR_projekt
         ProgressBar _accelerometer_Y_reverse;
         ProgressBar _accelerometer_Z_reverse;
 
+        ImageView _image_strelka;
+
+        Vibrator vibrator;
+
         bool alert_created = false;
+        bool vibrating = false;
 
-
+        float from_angle = 0.0F;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -49,6 +56,7 @@ namespace HMIR_projekt
             _accelerometer_textview_x = FindViewById<TextView>(Resource.Id.textView1);
             _accelerometer_textview_y = FindViewById<TextView>(Resource.Id.textView2);
             _accelerometer_textview_z = FindViewById<TextView>(Resource.Id.textView3);
+            _light_textview = FindViewById<TextView>(Resource.Id.textView4);
 
             _accelerometer_X = FindViewById<ProgressBar>(Resource.Id.progressBar1);
             _accelerometer_Y = FindViewById<ProgressBar>(Resource.Id.progressBar2);
@@ -56,6 +64,10 @@ namespace HMIR_projekt
             _accelerometer_X_reverse = FindViewById<ProgressBar>(Resource.Id.progressBar4);
             _accelerometer_Y_reverse = FindViewById<ProgressBar>(Resource.Id.progressBar5);
             _accelerometer_Z_reverse = FindViewById<ProgressBar>(Resource.Id.progressBar6);
+
+            _image_strelka = FindViewById<ImageView>(Resource.Id.ImageView2);
+
+            vibrator = (Vibrator)this.ApplicationContext.GetSystemService(ContextThemeWrapper.VibratorService);
 
 
             _sensorManager = (SensorManager)GetSystemService(SensorService);
@@ -100,7 +112,6 @@ namespace HMIR_projekt
         protected override void OnResume()
         {
             base.OnResume();
-          //  _sensorManager.RegisterListener(this, _sensorManager.GetDefaultSensor(SensorType.Accelerometer), SensorDelay.Ui);
             _sensorManager.RegisterListener(this, _accelerometerSensor, SensorDelay.Ui);
             _sensorManager.RegisterListener(this, _proximitySensor, Android.Hardware.SensorDelay.Game);
             _sensorManager.RegisterListener(this, _lightSensor, Android.Hardware.SensorDelay.Game);
@@ -181,7 +192,7 @@ namespace HMIR_projekt
                 if (e.Values[0] == 0 && !alert_created)
                 {
                     AlertDialog.Builder alert = new AlertDialog.Builder(this);
-                    alert.SetTitle("Chyba proximity senzora");
+                    alert.SetTitle("Proximity senzor");
                     alert.SetMessage("Nieco je pred senzorom");
                     alert.SetNeutralButton("OK", (senderAlert, args) =>
                     {
@@ -196,33 +207,35 @@ namespace HMIR_projekt
             }
             if (e.Sensor.Type == SensorType.Light)
             {
-                //if(e.Values[0] > 0 && e.Values[0] < 500)
-                //{
-                //    _accelerometer_textview_z.SetTextColor(Android.Graphics.Color.Blue);
-                //    _accelerometer_textview_z.Text = string.Format("V pohode");
-                //}
-                //else if(e.Values[0] >= 500 && e.Values[0] < 1000)
-                //{
-                //    _accelerometer_textview_z.SetTextColor(Android.Graphics.Color.Green);
-                //    _accelerometer_textview_z.Text = string.Format("ne");
-                //}
-                //else if (e.Values[0] >= 1000 && e.Values[0] < 3000)
-                //{
-                //    _accelerometer_textview_z.SetTextColor(Android.Graphics.Color.Yellow);
-                //    _accelerometer_textview_z.Text = string.Format("ne");
-                //}
-                //else if (e.Values[0] >= 3000 && e.Values[0] < 10000)
-                //{
-                //    _accelerometer_textview_z.SetTextColor(Android.Graphics.Color.Red);
-                //    _accelerometer_textview_z.Text = string.Format("pozor");
-                //}
-                //else
-                //{
-                //    _accelerometer_textview_z.SetTextColor(Android.Graphics.Color.Black);
-                //    _accelerometer_textview_z.Text = string.Format("Error");
-                //}
+                 if(e.Values[0] < 400 || e.Values[0] > 14000)
+                {
+                    _light_textview.SetTextColor(Android.Graphics.Color.Red);
+                    _light_textview.Text = string.Format("{0:d} lux", (int)e.Values[0]);
+
+                    if (!vibrating)
+                    {
+                        vibrating = true;
+                        //vibrator.Vibrate(500);
+                    }
+                    
+                }
+                else
+                {
+                    vibrating = false;
+                    _light_textview.SetTextColor(Android.Graphics.Color.White);
+                    _light_textview.Text = string.Format("{0:d} lux", (int)e.Values[0]);
+                }
+
+                float to_Angle = 0.012F * e.Values[0] - 90;
+                RotateAnimation rAnim = new RotateAnimation(from_angle, to_Angle, Dimension.RelativeToSelf, 0.5F, Dimension.RelativeToSelf, 0.5F);
+                rAnim.Interpolator = new LinearInterpolator();
+                rAnim.RepeatCount = Animation.Infinite;
+                rAnim.Duration = 100;
+                _image_strelka.StartAnimation(rAnim);
+                from_angle = to_Angle;
             }
         }
     }
 }
+
 
