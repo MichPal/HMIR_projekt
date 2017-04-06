@@ -99,12 +99,6 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "HMIR_projekt.dll" comes first in this list. */
 		"HMIR_projekt.dll",
-<<<<<<< HEAD
-=======
-		"Java.Interop.dll",
-		"OxyPlot.dll",
-		"OxyPlot.Xamarin.Android.dll",
->>>>>>> origin/master
 		"System.Threading.dll",
 		"System.Runtime.dll",
 		"System.Collections.dll",
@@ -115,15 +109,6 @@ class MonoPackageManager_Resources {
 		"System.Runtime.InteropServices.dll",
 		"System.Runtime.Extensions.dll",
 		"System.Reflection.Extensions.dll",
-<<<<<<< HEAD
-=======
-		"System.ServiceModel.Internals.dll",
-		"System.Text.RegularExpressions.dll",
-		"System.IO.dll",
-		"System.Xml.ReaderWriter.dll",
-		"System.Text.Encoding.dll",
-		"System.Globalization.dll",
->>>>>>> origin/master
 	};
 	public static final String[] Dependencies = new String[]{
 	};

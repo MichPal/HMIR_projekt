@@ -88,5 +88,7 @@ D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\res\drawa
 D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\res\drawable\progressbar_r_reverse.xml
 D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\res\drawable\meter.png
 D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\res\drawable\strelka.png
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\OxyPlot.dll.mdb
+D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\android\assets\OxyPlot.dll.mdb
 D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\obj\Debug\HMIR_projekt.dll.mdb
 D:\Skola\Skola\4.roc\LS\HMIR\Cviko\HMIR_projekt\HMIR_projekt\bin\Debug\HMIR_projekt.dll.mdb

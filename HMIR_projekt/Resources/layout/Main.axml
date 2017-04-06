@@ -3,10 +3,6 @@
     p1:layout_width="match_parent"
     p1:layout_height="match_parent"
     p1:id="@+id/frameLayout1">
-    <OxyPlot.Xamarin.Android.PlotView
-        p1:id="@+id/plot_view"
-        p1:layout_width="match_parent"
-        p1:layout_height="match_parent" />
     <TextureView
         p1:layout_width="match_parent"
         p1:layout_height="match_parent"
