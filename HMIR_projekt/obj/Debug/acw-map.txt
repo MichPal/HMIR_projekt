@@ -2,3 +2,7 @@ HMIR_projekt.MainActivity, HMIR_projekt;md5ea72665079c49b929a37115805278e39.Main
 HMIR_projekt.MainActivity, HMIR_projekt, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ea72665079c49b929a37115805278e39.MainActivity
 HMIR_projekt.MainActivity;md5ea72665079c49b929a37115805278e39.MainActivity
 hmir_projekt.MainActivity;md5ea72665079c49b929a37115805278e39.MainActivity
+OxyPlot.Xamarin.Android.PlotView, OxyPlot.Xamarin.Android;md576548fdf6897b70553b6b405e9653aa0.PlotView
+OxyPlot.Xamarin.Android.PlotView, OxyPlot.Xamarin.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md576548fdf6897b70553b6b405e9653aa0.PlotView
+OxyPlot.Xamarin.Android.PlotView;md576548fdf6897b70553b6b405e9653aa0.PlotView
+oxyplot.xamarin.android.PlotView;md576548fdf6897b70553b6b405e9653aa0.PlotView
